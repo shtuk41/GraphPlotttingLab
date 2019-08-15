@@ -1,0 +1,12 @@
+﻿<Window x:Class="GraphPlottingLab.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="353" Width="999">
+    <Grid>
+        <Canvas ClipToBounds="True" Height="217" HorizontalAlignment="Left" Name="animationCanvas" Margin="48,10,0,0" VerticalAlignment="Top" Width="741"  Mouse.MouseMove="image_MouseMoveHandler" Mouse.MouseLeave="image_MouseLeaveHandler" Mouse.MouseDown="image_MouseDownHandler" Mouse.MouseUp="image_MouseUpHandler">
+            <Canvas.Background>
+                <SolidColorBrush Color="Black" Opacity="80"/>
+            </Canvas.Background>
+        </Canvas> 
+    </Grid>
+</Window>
